@@ -2,7 +2,7 @@
 
 ### Basic Code Challenge 
 
-This code-repository contains a very basic todo application built using Laravel's latest version. This app contains the default authentication features provided by Laravel and a single model named Task alsong with the resource controller.
+This code-repository contains a very basic todo application built using Laravel's latest version. This app contains the default authentication features provided by Laravel and a single model named Task along with the resource controller.
 
 The CRUD contains a few errors and some part with missing implementation. 
 
@@ -14,8 +14,8 @@ Whoever gets the following done fastest wins this challenge.
 
 **Show All Tasks**
 
-* 1. User should only be able to see the task that belongs to him
-* 2. Show the Difference for Humans date instead of the date on which task is created (Eg created 10 mins ago)
+* User should only be able to see the task that belongs to him
+* Show the Difference for Humans date instead of the date on which task is created (Eg created 10 mins ago)
 
 **Edit Task**
 
