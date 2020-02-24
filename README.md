@@ -30,9 +30,13 @@ If you are new to Laravel, it would be a great practice to get started with Lara
 
 Following are the installation steps.
 
-1. Make sure you have php and mysql installed in your system.
-2. Clone the git repo.
-3. Navigate into the project and run command `composer install` (This will install all the required dependencies)
-4. Create a new database and connect your project to it by changing environment property values in `.env` file.
-5. Run command `php artisan migrate` (This will create all the database tables asscociated with the project)
-6. Run the project with command `php artisan serve`
+1. Make sure you have php 7.2+ and mysql 5.7+ installed on your system. Please refer [Laravel requirements](https://laravel.com/docs/6.x/installation#server-requirements).
+1. Clone the git repo anywhere on your machine
+1. Navigate into the project directory
+1. Copy `.env.example` to `.env`
+1. Run command `composer install` (This will install all the required dependencies)
+1. Create a new database and connect your project to it by changing environment property values in `.env` file.
+1. Run `php artisan key:generate`
+1. Run command `php artisan migrate` (This will create all the database tables asscociated with the project)
+1. Run the project with command `php artisan serve`
+1. App should now be running at http://localhost:8000
